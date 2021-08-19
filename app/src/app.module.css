@@ -1,0 +1,49 @@
+.centerDiv {
+    width: 80%;
+    min-height: 5vh;
+    padding: 1rem;
+}
+
+.containerCenter {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.bigText {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.link {
+    display: block;
+    color: inherit;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 80%;
+}
+.form label {
+    font-size: 1.2rem;
+}
+.form input {
+    font-size: 1.2rem;
+}
